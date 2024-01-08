@@ -1,0 +1,23 @@
+{
+  "name": "car24-testcase",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "testSpecificScenario": "cucumber-js --tags @specificScenario"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.4",
+    "playwright": "^1.40.1"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.0.1",
+    "cucumber": "^6.0.7",
+    "dotenv": "^16.3.1"
+  }
+}
